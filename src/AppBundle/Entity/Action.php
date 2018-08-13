@@ -30,7 +30,7 @@ class Action
         return $this->id;
     }
 
-    public function parentId(): int
+    public function parentId(): ?int
     {
         return $this->parentId;
     }
